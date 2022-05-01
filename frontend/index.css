@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  background-color: #effffd;
+  height: 200vh;
+  /* overflow: hidden; */
+}
+.font-1 {
+  font-family: "Major Mono Display", monospace;
+}
+.font-2 {
+  font-family: "Tapestry", cursive;
+}
+@media (max-width: 320px) {
+  #header{
+    width: 22rem;
+  }
+}
